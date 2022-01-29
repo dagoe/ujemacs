@@ -1,0 +1,47 @@
+#+title: A Test Using Org Mode
+#+author: Uwe Jaekel
+
+#+begin_src elisp
+(setq org-confirm-babel-evaluate nil)
+#+end_src
+
+* Introduction
+  This is an org file for testing my Emacs configuration.
+  
+* Some experiments
+
+** What does a table look like?
+   | a | b | c |
+   |---+---+---|
+   | 1 | 2 | 3 |
+   | 4 | 5 | 6 |
+   | 7 | 8 | 9 |
+
+** Some code segments
+   Let's try elisp first:
+
+   #+begin_src elisp output: results
+(sqrt 3)
+   #+end_src
+
+   #+RESULTS:
+   : 1.7320508075688772
+
+   How about Python?
+
+   #+begin_src python :session output: results
+"Hello World!"
+   #+end_src
+
+   #+RESULTS:
+   : Hello World!
+
+   Or R?
+
+   #+begin_src R
+a <- 47
+a*a
+   #+end_src
+
+   #+RESULTS:
+   : 2209
