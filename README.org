@@ -1,0 +1,2 @@
+* My Emacs Config
+  This will probably not be useful for anybody else.
