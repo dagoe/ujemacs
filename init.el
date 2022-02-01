@@ -2,7 +2,9 @@
       mac-option-modifier  'none)
 
 (setq inhibit-startup-message t)
+(tool-bar-mode -1)
 
+(load-theme 'tsdh-dark)
 
 (require 'package)
 (setq package-enable-at-startup nil)

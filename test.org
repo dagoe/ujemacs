@@ -17,7 +17,7 @@
    | 4 | 5 | 6 |
    | 7 | 8 | 9 |
 
-** Some code segments
+** COMMENT Some code segments
    Let's try elisp first:
 
    #+begin_src elisp output: results
@@ -30,7 +30,7 @@
    How about Python?
 
    #+begin_src python :session output: results
-"Hello World!"
+     "Hello World!"
    #+end_src
 
    #+RESULTS:
@@ -45,3 +45,11 @@ a*a
 
    #+RESULTS:
    : 2209
+
+   
+* Writing LaTeX
+  \[ \sin(x) \]
+
+  $ x^3 / 3 $
+
+  [calc-mode: language: latex] $ \frac{x^2}{6}  $
